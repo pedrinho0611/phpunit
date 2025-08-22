@@ -23,16 +23,15 @@ class CalculatorTest extends TestCase
 
     public function testSomarWithNegativeNumbers()
     {
-        $result = $this->calculator->somar(-2, -3);
-        $this->assertEquals(-5, $result);
+        $resultado = $this->calculator->somar(-2, -3);
+        $this->assertEquals(-5, $resultado);
     }
 
     public function testSomarWithZero()
     {
-        $result = $this->calculator->somar(0, 5);
-        $this->assertEquals(5, $result);
+        $resultado = $this->calculator->somar(0, 5);
+        $this->assertEquals(5, $resultado);
     }
-
         // subtrair
         public function testSubtrairSimples()
         {
